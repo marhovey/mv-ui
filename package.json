@@ -1,0 +1,19 @@
+{
+  "name": "mv-ui",
+  "version": "1.0.0",
+  "description": "my first ui based on mui-library",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "father build",
+    "dev": "npx father doc dev --host 0.0.0.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "react": "16.x"
+  },
+  "devDependencies": {
+    "father": "^2.29.2"
+  }
+}
