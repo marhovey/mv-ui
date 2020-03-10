@@ -2,7 +2,9 @@ export default {
   entry: 'src/index.tsx',
   doc: {
     themeConfig: { mode: 'light' },
-    base: '/mv-ui'
+    base: '/mv-ui',
+    codeSandbox: false,
+    typescript: true
   },
   extractCSS: true,
   lessInBabelMode: true,

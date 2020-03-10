@@ -5,7 +5,9 @@ route: /Button
 
 import Button from './index.tsx'
 
-#Button
+# Button
+
+按钮组件
 
 #### 基本用法
 <Button>default</Button>
@@ -18,4 +20,9 @@ import Button from './index.tsx'
 <Button type="primary" size="small">small</Button>
 
 #### 铺满
-<Button type="primary" block>block</Button>
+<Button className="custom-class" type="primary" block>block</Button>
+
+#### 禁用
+<Button className="custom-class" type="primary" disabled>
+  <span>disabled</span>
+</Button>
