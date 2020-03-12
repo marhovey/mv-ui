@@ -6,14 +6,15 @@ route: /Icon
 import { Playground, Props } from 'docz'
 import Icon from './index.tsx'
 
-# Icon
+## Icon
 
-图标组件，主要是用font-awesome图标库
+图标组件，使用font-awesome图标库
 
 ### 属性值
-<Props of={Icon} />
 
-#### 基础用法
+<Props of={Icon}/>
+
+### 基础用法
 <Playground>
   <div className="icon-list">
     <Icon type="arrow-alt-circle-down" />
@@ -21,14 +22,18 @@ import Icon from './index.tsx'
   </div>
 </Playground>
 
-#### 实心
-<div className="icon-list">
-  <Icon type="arrow-alt-circle-down" theme="fas" />
-  <Icon type="angry" theme="fas" />
-</div>
+### 实心
+<Playground>
+  <div className="icon-list">
+    <Icon type="arrow-alt-circle-down" theme="fas" />
+    <Icon type="angry" theme="fas" />
+  </div>
+</Playground>
 
-#### 商标
-<div className="icon-list">
-  <Icon type="alipay" theme="fab" />
-  <Icon type="amazon" theme="fab" />
-</div>
+### 商标
+<Playground>
+  <div className="icon-list">
+    <Icon type="alipay" theme="fab" />
+    <Icon type="amazon" theme="fab" />
+  </div>
+</Playground>

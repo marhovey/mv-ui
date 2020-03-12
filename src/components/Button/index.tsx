@@ -1,6 +1,5 @@
 import classnames from 'classnames'
 import './index.less'
-import React, { ReactNode } from 'react'
 
 /**
  * @param {onClick} func 对外暴露的点击事件
@@ -9,16 +8,17 @@ import React, { ReactNode } from 'react'
  * @param {size} string 按钮大小 default | mini | large 默认值: default
  * @param {block} boolean 按钮是否独占一行 true | false 默认值: false
  */
-interface ButtonProp {
+declare interface ButtonProps {
   type?: string,
   size?: string,
   block?: boolean,
   className?: string,
   onClick?: any,
-  children: string | ReactNode,
-  disabled: boolean
+  children?: string | JSX.Element,
+  disabled?: boolean
 }
-export default function Button(props: ButtonProp) {
+
+export default function Button(props: ButtonProps) {
   const { children, onClick, className, type, size, block = false, disabled } = props
   return (
     <button

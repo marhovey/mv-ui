@@ -1,10 +1,12 @@
 export default {
   entry: 'src/index.tsx',
   doc: {
-    themeConfig: { mode: 'light' },
+    themeConfig: {},
     base: '/mv-ui',
     codeSandbox: false,
-    typescript: true
+    typescript: true,
+    propsParser: true,
+    filterComponents: files => files.filter(p => p.match(/ts[x]?$/))
   },
   extractCSS: true,
   lessInBabelMode: true,

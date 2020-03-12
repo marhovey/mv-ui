@@ -2,27 +2,38 @@
 name: Button 按钮
 route: /Button
 ---
-
+import { Playground, Props } from 'docz'
 import Button from './index.tsx'
 
-# Button
+## Button
 
 按钮组件
 
-#### 基本用法
-<Button>default</Button>
-<Button type="primary">primary</Button>
-<Button type="dashed">dashed</Button>
+### 属性值
+<Props of={Button} />
 
-#### 尺寸
-<Button type="primary" size="large">large</Button>
-<Button type="primary">default</Button>
-<Button type="primary" size="small">small</Button>
+### 基本用法
+<Playground>
+  <Button>default</Button>
+  <Button type="primary">primary</Button>
+  <Button type="dashed">dashed</Button>
+</Playground>
 
-#### 铺满
-<Button className="custom-class" type="primary" block>block</Button>
+### 尺寸
+<Playground>
+  <Button type="primary" size="large">large</Button>
+  <Button type="primary">default</Button>
+  <Button type="primary" size="small">small</Button>
+</Playground>
 
-#### 禁用
-<Button className="custom-class" type="primary" disabled>
-  <span>disabled</span>
-</Button>
+### 铺满
+<Playground>
+  <Button className="custom-class" type="primary" block>block</Button>
+</Playground>
+
+### 禁用
+<Playground>
+  <Button className="custom-class" type="primary" disabled>
+    <span>disabled</span>
+  </Button>
+</Playground>
