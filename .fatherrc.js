@@ -2,7 +2,7 @@ export default {
   entry: 'src/index.tsx',
   doc: {
     themeConfig: {},
-    base: '/mv-ui',
+    base: '/test-docz',
     codeSandbox: false,
     typescript: true,
     propsParser: true,
