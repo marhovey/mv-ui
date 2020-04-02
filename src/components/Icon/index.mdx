@@ -1,0 +1,39 @@
+---
+name: Icon 图标
+route: /Icon
+---
+
+import { Playground, Props } from 'docz'
+import Icon from './index.tsx'
+
+## Icon
+
+图标组件，使用font-awesome图标库
+
+### 属性值
+
+<Props of={Icon}/>
+
+### 基础用法
+<Playground>
+  <div className="icon-list">
+    <Icon type="arrow-alt-circle-down" />
+    <Icon type="angry" />
+  </div>
+</Playground>
+
+### 实心
+<Playground>
+  <div className="icon-list">
+    <Icon type="arrow-alt-circle-down" theme="fas" />
+    <Icon type="angry" theme="fas" />
+  </div>
+</Playground>
+
+### 商标
+<Playground>
+  <div className="icon-list">
+    <Icon type="alipay" theme="fab" />
+    <Icon type="amazon" theme="fab" />
+  </div>
+</Playground>

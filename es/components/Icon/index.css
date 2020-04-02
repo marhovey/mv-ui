@@ -1,0 +1,7 @@
+.mv-icon {
+  font-size: 24px;
+  color: rgba(0, 0, 0, 0.65);
+}
+.icon-list .mv-icon {
+  margin-right: 8px;
+}

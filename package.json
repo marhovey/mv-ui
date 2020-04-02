@@ -1,0 +1,36 @@
+{
+  "name": "test-docz",
+  "version": "1.0.0",
+  "description": "my first ui based on mui-library",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "father-build build",
+    "docz:dev": "docz dev --typescript --port=4838",
+    "docz:build": "docz build",
+    "docz:serve": "docz build && docz serve"
+  },
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "react": "16.x"
+  },
+  "devDependencies": {
+    "@babel/runtime": "^7.9.2",
+    "docz-theme-ztopia": "^0.1.3",
+    "father-build": "^1.17.2"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.27",
+    "@fortawesome/free-brands-svg-icons": "^5.12.1",
+    "@fortawesome/free-regular-svg-icons": "^5.12.1",
+    "@fortawesome/free-solid-svg-icons": "^5.12.1",
+    "@fortawesome/react-fontawesome": "^0.1.9",
+    "@types/classnames": "^2.2.10",
+    "classnames": "^2.2.6",
+    "docz": "^2.2.0",
+    "gatsby-plugin-less": "^3.1.1",
+    "less": "^3.11.1",
+    "react-dom": "^16.13.1"
+  }
+}

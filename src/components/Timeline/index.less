@@ -1,0 +1,36 @@
+@pre: .mv-timeline;
+@{pre}{
+  @{pre}-item{
+    position: relative;
+    padding-bottom: 20px;
+    @{pre}-item-tail{
+      position: absolute;
+      top: 10px;
+      left: 4px;
+      height: 100%;
+      border-left: 2px solid #e8e8e8;
+    }
+    &.last-item{
+      @{pre}-item-tail{
+        border: none;
+      }
+    }
+    @{pre}-item-head{
+      position: absolute;
+      width: 10px;
+      height: 10px;
+      background-color: #fff;
+      border: 2px solid #1890ff;
+      border-radius: 100px;
+      color: #1890ff;
+      font-size: 10px;
+      top: 6px;
+    }
+    @{pre}-item-content{
+      margin-left: 30px;
+      font-size: 14px;
+      line-height: 20px;
+      color: rgba(0, 0, 0, .85);
+    }
+  }
+}

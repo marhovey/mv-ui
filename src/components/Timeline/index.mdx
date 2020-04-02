@@ -1,0 +1,26 @@
+---
+  name: Timeline 时间轴
+  route: /Timeline
+---
+import { Playground, Props } from 'docz'
+import Timeline from './index.tsx'
+import Icon from '../Icon/index.tsx';
+
+## Button
+
+时间轴
+
+### 属性值
+<Props of={Timeline} />
+
+### 基本用法
+<Playground>
+  <Timeline>
+    <Timeline.Item>
+      张三李四王五
+    </Timeline.Item>
+    <Timeline.Item>
+      张三李四王五
+    </Timeline.Item>
+  </Timeline>
+</Playground>

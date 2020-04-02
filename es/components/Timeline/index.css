@@ -1,0 +1,31 @@
+.mv-timeline .mv-timeline-item {
+  position: relative;
+  padding-bottom: 20px;
+}
+.mv-timeline .mv-timeline-item .mv-timeline-item-tail {
+  position: absolute;
+  top: 10px;
+  left: 4px;
+  height: 100%;
+  border-left: 2px solid #e8e8e8;
+}
+.mv-timeline .mv-timeline-item.last-item .mv-timeline-item-tail {
+  border: none;
+}
+.mv-timeline .mv-timeline-item .mv-timeline-item-head {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+  border: 2px solid #1890ff;
+  border-radius: 100px;
+  color: #1890ff;
+  font-size: 10px;
+  top: 6px;
+}
+.mv-timeline .mv-timeline-item .mv-timeline-item-content {
+  margin-left: 30px;
+  font-size: 14px;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.85);
+}
